@@ -1,0 +1,68 @@
+body {
+    text-align: center;
+    background-image: url(https://sun9-63.userapi.com/impf/c830209/v830209033/171d75/U2v11dHSuYk.jpg?size=604x340&quality=96&sign=ce3436bc3e19c6a50c30e8e5c4cc8b3b&type=album);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+}
+.modal {
+    width: 500px;
+    height: 265px;
+    margin: 185px 478px;
+    background-color: #444;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+button {
+    width: 70px;
+    height: 30px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 30px;
+}
+button:hover {
+    border: 1px solid white;
+}
+.buttons {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    position: relative;
+}
+#yes-wrapper {
+    position: absolute;
+    top: 0;
+    right: 50%;
+    margin-right: 20px;
+}
+#no {
+    position: absolute;
+}
+.modal_2 {
+    width: 500px;
+    height: 360px;
+    margin: 140px 487px;
+    background-image: url(https://i.ytimg.com/vi/7omyFH5JBRE/hqdefault.jpg);
+    background-repeat: no-repeat;
+    position: relative;
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+.gradient-text {
+    background: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    font-size: 36px;
+}
